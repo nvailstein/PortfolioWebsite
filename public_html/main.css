@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 5, 2021, 8:31:53 PM
+    Author     : Nick
+*/
+@font-face {
+}
+
+div {
+  color: rgba(0,0,0, .7);
+  font-family: markerFont;
+}
+
+body {
+    background-image: linear-gradient(90deg, rgba(64, 64, 64, 0.22), rgba(255, 255, 255, 0.22)),
+                  url("SeamlessPaperBackground.jpg");
+    background-repeat: repeat;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 6.5%;
+    padding-bottom: 5%;
+
+}
+    h1 {
+        text-align: center;
+        font-size: xx-large;
+        color: rgba(0,0,0, .7);
+    }
+    h2 {
+        text-align: center;
+        font-size: x-large;
+        color: rgba(0,0,0, .7);
+    }
+    div {
+        text-align: center;
+        font-size: large;
+        color: rgba(0,0,0, .7);
+        
+    }
+    
+ .header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  width: 100%;
+  color: rgba(0,0,0, .7);
+  background-image: linear-gradient(90deg, rgba(166, 166, 166, 0.22), rgba(255, 255, 255, 0.22)),
+      url("SeamlessPaperBackground.jpg");
+  box-shadow: -12px 0px 20px black;
+
+    }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+a:link {
+  color: rgba(0,0,0, .7);
+}
+a:visited {
+  color: rgba(0,0,186, .7);
+}
+a:hover {
+  color: rgba(0,0,186, .7);
+}
+a:active {
+  color: rgba(64,64,128, .7);
+} 
+
+
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgba(0,0,0, .7);
+  background-image: linear-gradient(90deg, rgba(64, 64, 64, 0.22), rgba(255, 255, 255, 0.22)),
+      url("SeamlessPaperFooter.jpg");
+  text-align: center;
+  box-shadow: -12px 0px 20px black;
+
+    }
+
+
+
+ /* Style the button that is used to open and close the collapsible content */
+.expand {
+   background-image: linear-gradient(90deg, rgba(64, 64, 64, 0.22), rgba(255, 255, 255, 0.22)),
+      url("SeamlessPaperFooter.jpg");
+  cursor: pointer;
+  padding-top: .5%;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .expand:hover {
+  background-image: linear-gradient(90deg, rgba(64, 64, 64, 0.22), rgba(255, 255, 255, 0.22)),
+      url("SeamlessPaperFooter.jpg");
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-image: linear-gradient(90deg, rgba(64, 64, 64, 0.22), rgba(255, 255, 255, 0.22)),
+      url("SeamlessPaperFooter.jpg");
+}
